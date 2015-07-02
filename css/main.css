@@ -11,6 +11,10 @@
     margin-bottom: 0;
 }
 
+.panel {
+    border: 1px solid #000; 
+}
+
 .panel.panel-default {
     border-radius: 0;
     box-shadow: 0;
