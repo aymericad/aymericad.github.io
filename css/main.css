@@ -1,6 +1,5 @@
 .page-header
 {
-    margin-top: 140px;
     margin-bottom: 50px;
     text-align: center;
     border: 0;
@@ -37,3 +36,64 @@
     border: 3px solid #000;
     border-top: 0;
 }
+
+.slide
+{
+    padding-top: 140px;
+    padding-bottom: 60px;
+}
+
+.slide.slide-default
+{
+    background: #fff; 
+    color: #292525;
+}
+
+.slide.slide-inverse
+{
+    background: #000; 
+    color: #fff;
+}
+
+.gallery img {
+    padding: 0;
+}
+
+.panel-heading .skills-picto {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.btn {
+    border: 0;
+    border-radius: 0;
+    color: #fff;
+    font-weight: bold;
+}
+
+.btn-default:hover
+{
+    color: #fff;
+}
+
+.btn.btn-default {
+    background: #212020;
+}
+
+.form-control {
+    border-radius: 0;
+    box-shadow: none;
+    border: 1px solid #292525;
+}
+
+.form-control:focus {
+    border-color: #292525;
+    box-shadow: 0px 1px 1px rgba(33, 32, 32, 0.075) inset, 0px 0px 8px rgba(33, 32, 32, 0.6);
+}
+
+label {
+    font-weight: normal;
+}
+
