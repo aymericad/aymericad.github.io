@@ -97,3 +97,17 @@ label {
     font-weight: normal;
 }
 
+.circle {
+  fill: transparent;
+  stroke: #fff;
+  stroke-width: 7;
+}
+.inCircle {
+  fill: transparent;
+  stroke: #fff;
+  stroke-width: 1;
+}
+.circleContainer {
+  width: 180px;
+  height: 180px;
+}
