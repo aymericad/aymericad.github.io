@@ -136,6 +136,10 @@ label {
     font-weight: normal;
 }
 
+#photo {
+    background: url(../images/photo.png) no-repeat center center;
+}
+
 .circle {
   fill: transparent;
   stroke: #fff;
@@ -155,6 +159,19 @@ label {
     font-size: 40px; 
     text-anchor: middle;
 }
-.skillsCircle{
-    
+
+.slide.slide-inverse .circle, .slide.slide-inverse .inCircle {
+    stroke: #fff;
+}
+.slide.slide-default .circle, .slide.slide-default .inCircle {
+    stroke: #212020;
+}
+.slide.slide-inverse .circleText {
+    fill: #fff;
+}
+.slide.slide-default .circleText {
+    fill: #212020;
+}
+.slide.slide-default .circle {
+    stroke-width: 3;
 }
