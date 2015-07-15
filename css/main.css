@@ -78,6 +78,10 @@ h3 {
     padding-bottom: 60px;
 }
 
+.container {
+    max-width: 1040px;
+}
+
 .slide.slide-default
 {
     background: #fff; 
