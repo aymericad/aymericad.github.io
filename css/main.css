@@ -1,6 +1,18 @@
 @import url(http://fonts.googleapis.com/css?family=Nunito:300);
 @import url(http://fonts.googleapis.com/css?family=Oswald:700);
 
+@font-face {
+    font-family: 'reklame_script_regular_demoRg';
+    src: url('../fonts/reklamescript-regular.eot');
+    src: url('../fonts/reklamescript-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/reklamescript-regular.woff2') format('woff2'),
+         url('../fonts/reklamescript-regular.woff') format('woff'),
+         url('../fonts/reklamescript-regular.ttf') format('truetype'),
+         url('../fonts/reklamescript-regular.svg#reklame_script_regular_demoRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 body
 {
@@ -174,4 +186,29 @@ label {
 }
 .slide.slide-default .circle {
     stroke-width: 3;
+}
+
+#slide-accueil {
+    background: #000 url('../images/cover.jpg') no-repeat center 0;
+    
+}
+
+#slide-accueil #accueil-logo {
+    margin-top: 380px;
+}
+
+#slide-accueil h1 {
+    padding-bottom: 56px;
+}
+
+#accueil-scroll {
+    font-family: 'reklame_script_regular_demoRg';
+    font-size: 20px;
+    display: block;
+    line-height: 21px;
+}
+
+#accueil-chevron {
+    width: 11px; 
+    height: 11px;
 }
