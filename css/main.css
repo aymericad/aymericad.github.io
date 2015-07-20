@@ -104,11 +104,30 @@ h3 {
   display: none;
 }
 
-#nav_menu_open {
-    position: fixed;
-    top: 25px;
-    left: 25px;
-    z-index: 10;
+#nav {
+    background: 000;
+    color: #fff;
+    background: #000;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+#nav .container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+#nav.affix-top {
+    background: transparent;
+}
+
+#nav ul, #nav #nav-logo {
+    display: inline-block;
+}
+
+#nav.affix-top ul, #nav.affix-top #nav-logo {
+    display: none !important;
 }
 
 #menu nav {

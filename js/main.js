@@ -6,6 +6,7 @@ $(window).load(function() {
     $("#nav_menu_open").click(function() {
         $('#menu').show();
         $('html').addClass('no-scroll');
+        $('#nav').hide();
 
         return false;
     });
@@ -13,6 +14,7 @@ $(window).load(function() {
     $("#nav_menu_close").click(function() {
         $('#menu').hide();
         $('html').removeClass('no-scroll');
+        $('#nav').show();
 
         return false;
     });
