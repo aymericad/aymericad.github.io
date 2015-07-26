@@ -300,3 +300,23 @@ label {
     width: 11px; 
     height: 11px;
 }
+
+/* Slide Hello */
+
+#slide-hello ul.liste-reseaux {
+    margin-top: 36px;
+}
+
+#slide-hello ul.liste-reseaux li a span {
+    font-size: 40px;
+}
+
+#slide-hello ul.liste-reseaux li {
+    padding-left: 7px;
+    padding-right: 6px;
+}
+
+#slide-hello ul.liste-reseaux li:hover a span {
+    color: #fff;
+    background: #000;
+}
