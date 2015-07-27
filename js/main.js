@@ -25,7 +25,6 @@ $(window).load(function() {
 function showMenu() {
     $('#menu').show();
     $('html').addClass('no-scroll');
-    $('#nav').hide();
     $('#lien_menu').attr('data-mode', 'hide-menu');
     $('#lien_menu span').removeClass('icon-menu');
     $('#lien_menu span').addClass('icon-croix');
@@ -34,7 +33,6 @@ function showMenu() {
 function hideMenu() {
     $('#menu').hide();
     $('html').removeClass('no-scroll');
-    $('#nav').show();
     $('#lien_menu').attr('data-mode','show-menu');
     $('#lien_menu span').removeClass('icon-croix');
     $('#lien_menu span').addClass('icon-menu');

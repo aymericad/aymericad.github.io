@@ -144,15 +144,15 @@ h3 {
 }
 
 #nav.affix-top {
-    background: transparent;
+    visibility: hidden;
+}
+
+#nav.affix {
+    visibility: visible;
 }
 
 #nav ul, #nav #nav-logo {
     display: inline-block;
-}
-
-#nav.affix-top ul, #nav.affix-top #nav-logo {
-    display: none !important;
 }
 
 #menu {
@@ -175,9 +175,18 @@ h3 {
     line-height: 110px;
 }
 
+#menu nav a .icon-curseur_droite {
+    vertical-align: middle;
+    display: none;
+}
+
 #menu nav a:hover {
     background: #fff;
     color: #000;
+}
+
+#menu nav a:hover .icon-curseur_droite {
+    display: inline-block;
 }
 
 .slide
