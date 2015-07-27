@@ -1,5 +1,15 @@
-@import url(http://fonts.googleapis.com/css?family=Nunito:300);
 @import url(http://fonts.googleapis.com/css?family=Oswald:700);
+
+@font-face {
+    font-family: 'AvenirNextLTPro-Regular';
+    src: url('../fonts/venirNextLTPro-Regular.eot?#iefix') format('embedded-opentype'),  
+         url('../fonts/AvenirNextLTPro-Regular.otf')  format('opentype'),
+         url('../fonts/AvenirNextLTPro-Regular.woff') format('woff'), 
+         url('../fonts/AvenirNextLTPro-Regular.ttf')  format('truetype'), 
+         url('../fonts/AvenirNextLTPro-Regular.svg#AvenirNextLTPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
 @font-face {
     font-family: 'reklame_script_regular_demoRg';
@@ -16,9 +26,10 @@
 
 body
 {
-    font-family: 'Nunito', sans-serif;
-    font-size: 16px;
+    font-family: 'AvenirNextLTPro-Regular';
+    font-size: 15px;
 }
+
 html.no-scroll, html.no-scroll body {
     overflow: hidden;
 }
@@ -30,11 +41,11 @@ a, a:hover {
 
 h1, h2, h3, .btn {
     font-family: 'Oswald', sans-serif;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 h1 small {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'AvenirNextLTPro-Regular', sans-serif;
     font-size: 17px;
     color: #fff;
     letter-spacing : 4px;
@@ -46,7 +57,7 @@ h1 {
 }
 
 h2 {
-    font-size: 36px;
+    font-size: 38px;
 }
 
 h3 {
@@ -277,12 +288,17 @@ label {
     stroke-width: 3;
 }
 
+/* Slide Accueil */
+
 #slide-accueil {
     background: #000 url('../images/cover.jpg') no-repeat center 0;
 }
 
+#slide-accueil .container {
+    padding-top: 380px;
+}
+
 #slide-accueil #accueil-logo {
-    margin-top: 380px;
 }
 
 #slide-accueil h1 {
