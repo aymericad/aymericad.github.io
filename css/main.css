@@ -76,7 +76,9 @@ h3 {
 
 .page-header
 {
-    padding-bottom: 70px;
+    margin-bottom: 65px;
+    margin-top: 170px;
+    padding-bottom: 0;
     text-align: center;
     border: 0;
 }
@@ -111,13 +113,20 @@ h3 {
 .overlay {
   position: fixed;
   overflow: auto;
-  background-color: rgba(0,0,0,0.9);
+  background-color: rgba(0,0,0,0.92);
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 20;
+  z-index: 1040;
   display: none;
+}
+
+#lien_menu {
+    position: fixed;
+    top: 27px;
+    left: 27px;
+    z-index: 1050;
 }
 
 #nav {
@@ -146,13 +155,17 @@ h3 {
     display: none !important;
 }
 
+#menu {
+    padding-top: 79px;
+}
+
 #menu nav {
     width: 100%;
 }
 
 #menu nav a {
-    font-family: 'Oswald', sans-serif;
-    font-weight: bold;
+    font-family: 'Oswald-Bold', sans-serif;
+    font-weight: normal;
     display: block;
     font-size: 58px;
     text-align: center;
@@ -209,6 +222,10 @@ h3 {
     width: 100%;
     height: 100%;
     padding-top: 40%;
+}
+
+.gallery a .gallery-overlay p {
+    margin-top: 15px;
 }
 
 .gallery a:active .gallery-overlay, .gallery a:hover .gallery-overlay {
@@ -340,4 +357,17 @@ label {
 #slide-hello ul.liste-reseaux li:hover a span {
     color: #fff;
     background: #000;
+}
+
+
+/* Slide work */
+
+#slide-work {
+    max-width: 1200px;
+}
+
+/* Slide resume */
+
+#slide-resume p {
+    margin-top: 40px;
 }
