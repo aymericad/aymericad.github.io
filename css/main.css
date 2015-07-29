@@ -32,6 +32,11 @@
     font-style: normal;
 }
 
+html
+{
+    -webkit-font-smoothing: antialiased;
+}
+
 body
 {
     font-family: 'AvenirNextLTPro-Regular';
