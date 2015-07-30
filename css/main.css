@@ -72,7 +72,7 @@ h1 {
 h2 {
     font-size: 38px;
     margin-top: 170px;
-    margin-bottom: 2px;
+    margin-bottom: 16px;
 }
 
 h3 {
@@ -134,6 +134,8 @@ h3 {
     z-index: 1050;
 }
 
+/* Nav */
+
 #nav {
     background: 000;
     color: #fff;
@@ -160,6 +162,16 @@ h3 {
     display: inline-block;
 }
 
+#nav ul.liste-reseaux {
+    margin-bottom: 0;
+}
+
+#nav ul.liste-reseaux li a span {
+    font-size: 32px;
+    line-height: 79px;
+}
+
+/* Menu */ 
 #menu {
     padding-top: 79px;
 }
@@ -180,9 +192,10 @@ h3 {
     line-height: 110px;
 }
 
-#menu nav a .icon-curseur_droite {
-    vertical-align: middle;
+#menu nav a span.icon-curseur_droite, #menu nav a span.icon-curseur_gauche {
     display: none;
+    height: 85px;
+    vertical-align: middle;
 }
 
 #menu nav a:hover {
@@ -190,7 +203,7 @@ h3 {
     color: #000;
 }
 
-#menu nav a:hover .icon-curseur_droite {
+#menu nav a:hover span.icon-curseur_droite, #menu nav a:hover span.icon-curseur_gauche {
     display: inline-block;
 }
 
@@ -324,6 +337,24 @@ label {
     stroke-width: 3;
 }
 
+.icon-curseur_droite, .icon-curseur_gauche {
+    font-size: 52px;
+    display: inline-block;
+    height: 3px;
+}
+
+a .icon-hover {
+    display: none;
+}
+
+a:hover .icon-normal {
+    display: none;
+}
+
+a:hover .icon-hover {
+    display: inline-block;
+}
+
 /* Slide Accueil */
 
 #slide-accueil {
@@ -366,11 +397,6 @@ label {
 #slide-hello ul.liste-reseaux li {
     padding-left: 7px;
     padding-right: 6px;
-}
-
-#slide-hello ul.liste-reseaux li:hover a span {
-    color: #fff;
-    background: #000;
 }
 
 

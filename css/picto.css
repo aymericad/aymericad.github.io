@@ -28,6 +28,7 @@
 .icon-crayon:before,
 .icon-croix:before,
 .icon-curseur_droite:before,
+.icon-curseur_gauche:before,
 .icon-cuter:before,
 .icon-facebook:before,
 .icon-facebook_inverse:before,
@@ -61,6 +62,7 @@
 .icon-crayon:before { content: "\f102"; }
 .icon-croix:before { content: "\f103"; }
 .icon-curseur_droite:before { content: "\f104"; }
+.icon-curseur_gauche:before { content: "\f113"; }
 .icon-cuter:before { content: "\f105"; }
 .icon-facebook:before { content: "\f106"; }
 .icon-facebook_inverse:before { content: "\f107"; }
